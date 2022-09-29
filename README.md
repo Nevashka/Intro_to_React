@@ -11,6 +11,8 @@ OR
 
 ## Challenges and Wins
 
+In progress
+
 ## Exercises
 
 - Music App: Create a React Website that showcases your favourite artists songs/albums.
