@@ -1,5 +1,6 @@
 import React from "react";
-import {Artist, Album, Form, Liked} from "./components";
+import {Artist, Album, Form, Liked, UserArtist} from "./components";
+
 
 function App () {
   return (
@@ -15,6 +16,10 @@ function App () {
       <div>
       <h2>Albums</h2>
         <Album />
+      </div>
+
+      <div>
+        <UserArtist />
       </div>
     </main>
   )
