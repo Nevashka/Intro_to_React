@@ -1,7 +1,7 @@
 ## Usage
 
 - `git clone` the repo
-- `cd` to folder
+- `cd` into folder
 - Run `npm init -y` && `npm install`
 - Run `npm run dev`
 
