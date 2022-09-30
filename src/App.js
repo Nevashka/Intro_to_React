@@ -1,5 +1,6 @@
 import React from "react";
 import {Artist, Album, Form, Liked, UserArtist} from "./components";
+import  * as Pages  from "./pages";
 
 
 function App () {
