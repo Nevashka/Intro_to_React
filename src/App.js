@@ -1,28 +1,22 @@
 import React from "react";
-import {Artist, Album, Form, Liked, UserArtist} from "./components";
-import  * as Pages  from "./pages";
+import {Routes, Route} from 'react-router-dom'
+import  {Header, Footer}  from "./layout";
+import {Home, About, Albums, FindArtist, NotFound} from './pages'
 
 
 function App () {
   return (
-    <main>
-      <div>
-      <h1>My Favourite Artists</h1>
-        <Artist />
-      </div>
-      <div>
-        <Form/>
+    <>
+      <Header/>
+      <Routes>
+        <Route path="/" element={<Home/>}></Route>
+        <Route path="albums" element={<Albums/>}></Route>
+        <Route path="findArtist" element={<FindArtist/>}></Route>
+        <Route path="about" element={<About/>}></Route>
         
-      </div>
-      <div>
-      <h2>Albums</h2>
-        <Album />
-      </div>
-
-      <div>
-        <UserArtist />
-      </div>
-    </main>
+      </Routes>
+      {/* <Footer/> */}
+    </>
   )
 }
 
@@ -34,7 +28,7 @@ export default App;
 // const App = (props) => (
 //   // <Fragment></Fragment>
 //   <>
-//     {/* <h1>Hello World</h1> */}
+//     {/* <h1>Hello World</h1>
 //     <Trainer name='Mike' location='London'></Trainer>
 //     <Trainer name='Beth' location='Cornwall' ></Trainer>
 //     <Pokemon></Pokemon>

@@ -1,0 +1,28 @@
+nav {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  background-color: #5C2E7E;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  color: #8BBCCC ;
+
+}
+
+a {
+  text-decoration: none;
+  color: #8BBCCC;
+  border-radius: 5px;
+  border: solid;
+  padding: 5px;
+  text-align: center;
+}
+
+.current {
+  color: #000000;
+  background-color: #8BBCCC;
+  font-weight: bolder;
+}
+
+/* background: https://colorhunt.co/palette/8bbccc4c67935c2e7e000000 */
